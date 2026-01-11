@@ -1,5 +1,5 @@
-name: 'Issue Labeler'
-on:
+name: 'Issue Labeler'bot kaue
+on:[![Issue Labeler](https://github.com/discordjs/discord.js/actions/workflows/issue-triage.yml/badge.svg?branch=v14&event=create)](https://github.com/discordjs/discord.js/actions/workflows/issue-triage.yml)
   issues:
     types: [opened]
 jobs:
@@ -12,3 +12,4 @@ jobs:
           configuration-path: .github/issue-labeler.yml
           not-before: 2023-01-13T10:25:03.847Z
           enable-versioned-regex: 0
+/filas
